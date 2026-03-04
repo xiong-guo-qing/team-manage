@@ -6,7 +6,7 @@ import logging
 import asyncio
 from typing import Optional, Dict, Any, List
 from datetime import datetime, timedelta
-from sqlalchemy import select, and_, or_
+from sqlalchemy import select, and_, or_, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.models import RedemptionCode, RedemptionRecord, Team
